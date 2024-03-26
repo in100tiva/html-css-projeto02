@@ -6,7 +6,7 @@ body {
   margin: 65px auto 0;
 }
 
-header{
+Nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,4 +20,8 @@ ul {
   gap: 48px;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
