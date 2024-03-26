@@ -1,7 +1,7 @@
 body {
   margin: 0;
-
   font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, rgba(26, 255, 200, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
 }
 
 .page {
@@ -9,12 +9,11 @@ body {
   margin: 65px auto 0;
 }
 
-Nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-bottom: 55px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
 }
 
 ul {
@@ -25,7 +24,7 @@ ul {
   padding: 0;
 }
 
-/*pseudo classe*/
+/* pseudo classe */
 ul li a:hover {
   font-weight: bold;
 }
@@ -49,9 +48,7 @@ h1 {
   font-size: 49px;
   line-height: 56px;
   color: #1f1534;
-
   font-weight: normal;
-
   width: 490px;
 }
 
@@ -64,7 +61,6 @@ section p {
   font-size: 14px;
   line-height: 28px;
   color: #7d7987;
-
   margin: 40px 0;
 }
 
@@ -72,18 +68,14 @@ button {
   color: white;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-
   background: #69b99d;
   border: none;
   padding: 14px 32px 15px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  
   border-radius: 4px;
-
   cursor: pointer;
 }
 
@@ -91,17 +83,19 @@ button:hover {
   background: #5a9c85;
 }
 
-
 footer {
   font-size: 14px;
   line-height: 28px;
-
   text-align: center;
-
   margin-top: 80px;
 }
 
-footer a{
+footer a {
   font-weight: bold;
 }
 
+#in100tiva {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
